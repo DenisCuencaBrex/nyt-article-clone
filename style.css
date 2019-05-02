@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 button{
-  border: none;  
+  border: none;
 }
 button:focus{
   outline: none;
@@ -62,13 +62,13 @@ header{
   width: 33%;
   vertical-align: top;
   padding-top: 2px;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 
 .btn{
   float: right;
   background-color:#6288a5;
-  border: 1px solid #326891; 
+  border: 1px solid #326891;
   color:white;
   padding: 5px 10px;
   margin-right: 5px;
@@ -166,4 +166,38 @@ span.underline{
 .main-content-container{
   clear: both;
   padding-top: 30px;
+}
+
+.theory-of-inflation h3{
+  font-size: 1rem;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+.theory-of-inflation p{
+  font-size: .875rem;
+  font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+  color: #666;
+}
+
+.divider{
+  width: 20%;
+  display: inline-block;
+  font-size: 11px;
+  vertical-align: top
+}
+
+
+.divider img{
+  width: 100%;
+  padding: auto;
+}
+
+.divider h5{
+  font-size: .675rem;
+  font-weight: bold;
+}
+
+.divider p{
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-size: .6rem;
+  color: #000000;
 }
