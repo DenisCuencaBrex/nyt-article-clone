@@ -139,9 +139,6 @@ figcaption{
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.main-content-wrap p{
-  padding-bottom: 20px;
-}
 .left{
   width: 40%;
   font-size: 14px;
@@ -267,10 +264,18 @@ cite{
 
 .sub-img img{
   width: 100%;
-  padding: 0;
+  display: block;
+  padding-bottom: 10px;
 }
 
 .sub-img{
   width: 100%;
-  padding: 0;
+  font-size: 15px;
+  line-height: 1.5;
 }
+
+.sub-img span.cosmos-caption{
+  font-size: 15px;
+  display: inline-block; 
+}
+
