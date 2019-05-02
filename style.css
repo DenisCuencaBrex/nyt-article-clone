@@ -251,3 +251,26 @@ cite{
 .line{
   width: 10%;
 }
+
+.video p{
+  padding: 0;
+  color: #666;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: 1rem;
+}
+
+.video p.sub-title{
+  padding: 0;
+  color: #888;
+  font-size: .7rem;
+}
+
+.sub-img img{
+  width: 100%;
+  padding: 0;
+}
+
+.sub-img{
+  width: 100%;
+  padding: 0;
+}
