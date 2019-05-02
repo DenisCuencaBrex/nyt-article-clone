@@ -3,11 +3,119 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+button{
+  border: none;  
+}
+button:focus{
+  outline: none;
+}
 body{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 1.5;
 }
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 15px;
+}
+h4 {
+  font-size: 18px;
+}
+
+
+/*
+  ========================================
+  Header CSS starts here
+  ========================================
+*/
+
+header{
+  position: sticky;
+  height: 54px;
+  width: 100%;
+  padding: 0 20px;
+  top: 0;
+  background: white;
+  border-bottom: 1px solid #e2e2e2;
+  margin-bottom: 25px;
+}
+.col{
+ width: 33%;
+ display: inline-block;
+}
+
+.item-align{
+  width: 8%;
+ display: inline-block;
+}
+
+.topic{
+  width: 33%;
+  vertical-align: top;
+  padding-top: 2px;
+  text-transform: uppercase;  
+}
+
+.btn{
+  float: right;
+  background-color:#6288a5;
+  border: 1px solid #326891; 
+  color:white;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+
+/*
+  ========================================
+  Header CSS ends here
+  ========================================
+*/
+
+
+/*
+  ========================================
+  hero banner CSS ends here
+  ========================================
+*/
+
+
+.hero-banner{
+  clear: both;
+}
+.hero-banner h1{
+  font-style: italic;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 15px;
+}
+figure{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+figure img{
+  width: 100%;
+  display: block;
+}
+figcaption{
+  color: #666;
+  font-size: 13px;
+  font-weight: 100;
+}
+
 
 
