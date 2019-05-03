@@ -151,15 +151,44 @@ figcaption{
 */
 
 .main-content-wrap{
-  width: 600px;
+  width: 50%;
+  position: relative;
+  z-index: -1;
   margin: 40px auto;
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.side-box{
+    position: absolute;
+    height: 300px;
+    max-width: 214px;
+    width: 30%;
+    top: 9%;
+    right: -41%;
+
 }
 .left{
   width: 40%;
   font-size: 14px;
   float: left;
+}
+
+.side-box-wrap{
+  overflow: hidden;
+  margin-top: 15px;
+
+}
+
+.side-box h5{
+  margin: 0 0 5px 0;
+}
+
+.side-box-img{
+  float: left;
+}
+.side-box-content p{
+  font-size: 14px;
+  margin-top: 10px; 
 }
 
 .right{
