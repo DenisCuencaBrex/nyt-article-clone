@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 ul{
-  list-style: none;  
+  list-style: none;
   text-decoration: none;
 }
 li{
@@ -345,7 +345,7 @@ cite{
   clear: both;
 }
 .footer-cta{
-  float: right;      
+  float: right;
   margin: 15px 84px 15px 0;
 }
 .seperator{
@@ -360,7 +360,7 @@ cite{
 
 .footer-right li{
   border-top: 1px solid lightgray;
-  padding-top: 10px;  
+  padding-top: 10px;
 }
 .footer-right li a{
   color: rgb(40, 40, 40);
@@ -380,4 +380,32 @@ cite{
 }
 .footer-bottom-logo{
   padding-top: 20px;
+}
+
+.footer-section{
+  width: 170px;
+  float: left;
+  font-size:14px;
+}
+
+.footer-section li a{
+  font-size: 13px;
+}
+
+.footer-section li{
+  margin: 0;
+}
+
+.footer-section:last-child{
+  border-left: 1px solid red;
+  padding-left: 1rem;
+  background: url("images/sub-section.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: -1% 24%;
+}
+
+.footer-section:last-child li a{
+  font-size: 14px;
+  
 }
