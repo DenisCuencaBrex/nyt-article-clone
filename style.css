@@ -3,6 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul{
+  list-style: none;  
+  text-decoration: none;
+}
+li{
+  margin-bottom: 20px;
+}
+li a{
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
 button{
   border: none;
 }
@@ -213,10 +226,12 @@ footer{
 .footer-heading{
   float: left;
   width: 60%;
+  font-size: 20px;
+  padding: 25px 0 0 10px;
 }
 
 .footer-left{
-  width: 75%;
+  width: 72%;
   float: left;
 }
 .image-row{
@@ -231,6 +246,8 @@ footer{
 .col-3 img{
   width: 100%;
   display: block;
+  object-fit: none;
+  padding: 0 7px 0;
 }
 .footer-wrap-bottom{
   clear: both;
@@ -304,4 +321,63 @@ cite{
 }
 .social-media img{
   width: 100%;
+}
+
+.img-caption {
+  float: right;
+  padding-right: 11px;
+  color: lightgray;
+  font-size: 12px;
+}
+.article-date{
+  color: lightgray;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.article-title{
+  clear: right;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.footer-bottom{
+  clear: both;
+}
+.footer-cta{
+  float: right;      
+  margin: 15px 84px 15px 0;
+}
+.seperator{
+  width: 740px;
+  margin-left: 10px;
+}
+
+.footer-right h5{
+  font-size: 16px;
+  padding: 15px 0;
+}
+
+.footer-right li{
+  border-top: 1px solid lightgray;
+  padding-top: 10px;  
+}
+.footer-right li a{
+  color: rgb(40, 40, 40);
+}
+.footer-right  {
+  width: 322px;
+  margin: 0;
+  padding: 0;
+  float: right;
+  position: absolute;
+  right: 45px;
+  top: 0;
+}
+
+.footer-wrap-top{
+  position: relative;
+}
+.footer-bottom-logo{
+  padding-top: 20px;
 }
