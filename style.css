@@ -42,7 +42,7 @@ h2 {
   line-height: 44px;
 }
 h3 {
-  font-size: 15px;
+  font-size: 14px;
 }
 h4 {
   font-size: 18px;
@@ -188,7 +188,7 @@ figcaption{
 }
 .side-box-content p{
   font-size: 14px;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 .right{
@@ -250,6 +250,7 @@ span.underline{
   color: #000000;
   padding-bottom: 50px;
 }
+
 
 footer{
   max-width: 80%;
@@ -500,4 +501,27 @@ cite{
 .footer-link ul li a{
   font-size: 10px;
   color: gray;
+}
+
+.side-box.signup-box{
+  position: absolute;
+  height: 300px;
+  max-width: 214px;
+  width: 30%;
+  top: 21%;
+  right: -41%;
+  font-size: 18px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  margin-bottom: 5px;
+}
+
+.side-box.signup-box p{
+  font-size: 12px;
+}
+
+.signup-btn{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 7px;
 }
