@@ -395,17 +395,29 @@ cite{
 .footer-section li{
   margin: 0;
 }
-
+.footer-section:last-child{
+  width: 300px;
+}
 .footer-section:last-child{
   border-left: 1px solid red;
   padding-left: 1rem;
   background: url("images/sub-section.png");
   background-repeat: no-repeat;
   background-size: 20px;
-  background-position: -1% 24%;
+  background-position: 4% 15%;
 }
 
-.footer-section:last-child li a{
-  font-size: 14px;
-  
+.footer-section:last-child ul{
+    margin-left: 21px;
 }
+.footer-section:last-child li a{
+      line-height: 31px;
+    font-weight: bold;
+        font-size: 15px;  
+}
+
+.footer-bottom-logo{
+  background: url("images/logo.png") no-repeat -1% 40%;
+  height: 60px;
+}
+
