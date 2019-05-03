@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+a{
+color: rgb(98, 136, 165);
+text-decoration: none;
+}
 ul{
   list-style: none;
   text-decoration: none;
@@ -54,7 +58,7 @@ h4 {
 header{
   position: sticky;
   height: 54px;
-  width: 100%;
+  max-width: 100%;
   padding: 0 20px;
   top: 0;
   background: white;
@@ -219,8 +223,9 @@ span.underline{
 }
 
 footer{
-  width: 80%;
-  margin:0 auto;
+  max-width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .footer-heading{
@@ -231,15 +236,12 @@ footer{
 }
 
 .footer-left{
-  width: 72%;
   float: left;
-}
-.image-row{
-  width: 100%;
-  margin: 30px 0;
+  width: 70%;  
+  max-width: 64%;
 }
 .col-3{
-  width: 30%;
+  max-width: 33%;
   display: inline-block;
   vertical-align: top;
 }
@@ -251,6 +253,14 @@ footer{
 }
 .footer-wrap-bottom{
   clear: both;
+      overflow: hidden;
+    max-width: 100%;
+    margin-bottom: 3em;
+}
+
+.footer-bottom-wrap{
+  clear: both;
+  margin-top: 10px;
 }
 .footer-section{
   width: 20%;
@@ -306,6 +316,9 @@ cite{
   overflow: hidden;
 }
 
+.footer-left-top-container{
+  margin-bottom:2em;
+}
 .comment{
     float: left;
     padding: 10px 60px 15px;
@@ -341,15 +354,17 @@ cite{
   padding-left: 10px;
 }
 
+.footer-top{
+  overflow: hidden;
+}
 .footer-bottom{
   clear: both;
 }
 .footer-cta{
   float: right;
-  margin: 15px 84px 15px 0;
+  margin: 15px 0 15px 0;
 }
 .seperator{
-  width: 740px;
   margin-left: 10px;
 }
 
@@ -366,45 +381,43 @@ cite{
   color: rgb(40, 40, 40);
 }
 .footer-right  {
-  width: 322px;
+  max-width: 32%;
   margin: 0;
   padding: 0;
   float: right;
-  position: absolute;
-  right: 45px;
-  top: 0;
 }
 
 .footer-wrap-top{
-  position: relative;
-}
-.footer-bottom-logo{
-  padding-top: 20px;
+  overflow: hidden;
+  max-width: 100%;
+  margin-bottom: 3em;
 }
 
 .footer-section{
-  width: 150px;
-  float: left;
-  font-size:14px;
+    max-width: 170px;
+    float: left;
+    font-size: 14px;
 }
-
+.far-left ul{
+  margin-top: 10px;
+}
 .footer-section li a{
   font-size: 13px;
 }
-
 .footer-section li{
   margin: 0;
 }
 .footer-section:last-child{
-  width: 270px;
+  max-width: 365px;
+  margin-left: 71px;
 }
 .footer-section:last-child{
   border-left: 1px solid red;
-  padding-left: 1rem;
+  padding-left: 3rem;
   background: url("images/sub-section.png");
   background-repeat: no-repeat;
   background-size: 20px;
-  background-position: 4% 21%;
+  background-position: 20% 21%;
 }
 
 .footer-section:last-child ul.top-text{
@@ -421,6 +434,16 @@ cite{
 }
 
 .footer-bottom-logo{
-  background: url("images/logo.png") no-repeat -1% 40%;
-  height: 60px;
+  background: url(images/logo.png) no-repeat -17% 58%;
+    height: 60px;
+    display: block;
+    width: 300px;
+    float: left;
+}
+.link-to{
+  float: right;
+  margin-top: 10px;
+}
+.footer-bottom-logo-container{
+  overflow: hidden;
 }
