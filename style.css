@@ -43,10 +43,17 @@ h2 {
 }
 h3 {
   font-size: 14px;
+  padding-top: 2px;
 }
 h4 {
   font-size: 18px;
 }
+
+.logo{
+  padding-left: 100px;
+  padding-top: 5px;
+}
+
 
 
 /*
